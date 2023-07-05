@@ -1,0 +1,40 @@
+header {
+  height: 100vh;
+  /*padding: 2rem 0;*/
+  display: grid;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+.mustang {
+  width: 35rem;
+}
+
+.myheader-div {
+  height: calc(100vh - 10rem);
+  width: calc(100vw - 10rem);
+  max-width: calc(95vw);
+  border-radius: 2rem;
+  background-color: #555;
+}
+
+.mynavbarwrapper {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mynavbarwrapper .navbar .container {
+  width: 100%!important;
+}
+
+.mynavbarwrapper .navbar {
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-brand img {
+  width: 10rem;
+}
+
