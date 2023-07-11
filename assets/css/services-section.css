@@ -1,0 +1,49 @@
+*:focus, *:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mycard {
+  padding: 2rem 2rem;
+  background-color: #ffffff00;
+  border-radius: 1.75rem;
+  display: grid;
+  gap: 3rem;
+  height: 100%;
+  border: solid 1px var(--bs-dark-text-emphasis);
+}
+
+.mycard.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.mycard.dark * {
+  color: #f4f1ed;
+}
+
+.mycard .anotherbutton {
+  text-decoration: none;
+  /*padding: .5rem 1rem;*/
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background: #000;
+  color: #fff;
+  border-radius: 2rem;
+}
+
+.mycard.dark .anotherbutton {
+  background-color: #f4f1ed;
+  color: #000;
+  border-radius: 2rem;
+}
+
+.mycard.dark .anotherbutton * {
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+}
+

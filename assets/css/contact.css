@@ -1,0 +1,37 @@
+*:focus, *:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.reachuslink {
+  text-decoration: none;
+  color: var(--bs-gray-dark);
+}
+
+.reachusicon {
+  padding: .5rem;
+  box-sizing: content-box;
+  background-color: var(--bs-black);
+  border-radius: 50%;
+  color: var(--bs-body-bg);
+  min-width: 1em;
+}
+
+.badge {
+  padding: .75rem 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.about-us-image {
+  border-radius: 1.5rem;
+  min-height: 50vh;
+  object-fit: cover;
+  filter: grayscale(1);
+}
+
+.modal-content {
+  border-radius: 0;
+  background: var(--bs-body-bg);
+}
+

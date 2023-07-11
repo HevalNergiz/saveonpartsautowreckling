@@ -35,7 +35,7 @@
   --canada: #af4925;
 }
 
-.header-row > div:first-child {
+.header-row > div:first-child, .header-row > div iframe {
   border-style: solid;
   border-width: 1px;
   border-color: var(--bs-dark-text-emphasis);
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-dark {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #212529;
+  --bs-btn-bg: #000000;
   --bs-btn-border-color: #212529;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #424649;
@@ -262,5 +262,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   overflow-x: hidden;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
