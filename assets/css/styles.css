@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header-row {
     flex-direction: column;
   }
@@ -280,5 +280,9 @@ h1, h2, h3, h4, h5, h6 {
   appearance: none;
   border-radius: var(--bs-border-radius);
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.text-align-justify {
+  text-align: justify;
 }
 
