@@ -1,0 +1,15 @@
+.article-big-cover {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0rem;
+  box-sizing: border-box;
+  padding-top: calc(9 / 16 * 100%);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #808080!important;
+}
+

@@ -1,0 +1,86 @@
+.articlecover {
+  width: 100%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border-radius: 0rem;
+  box-sizing: border-box;
+  padding-top: calc(9 / 16 * 100%);
+  background-position: center;
+  background-size: cover;
+}
+
+.articles-row .card .card-body {
+  padding: 0;
+}
+
+.articles-row .article-card {
+  padding: 1rem;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(33,37,41,0.25);
+  border-radius: 0;
+}
+
+.read-article-link {
+  color: #000;
+  font-family: 'Product Sans';
+}
+
+.card-text {
+  color: #808080!important;
+}
+
+.card-title {
+  font-family: 'ClashDisplay-Variable';
+  font-weight: 300;
+}
+
+.article-mother-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.article-mother-link:hover {
+  color: #393d40;
+}
+
+.read-article-link:hover {
+  color: #393d40;
+}
+
+.article-card:hover .card-title {
+  text-decoration: underline;
+}
+
+.articles-row {
+  margin-bottom: 2rem;
+}
+
+.big-hr {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: -2;
+  height: 1px;
+  background-color: rgba(255,255,255,0.17);
+}
+
+.background-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  z-index: -1;
+  color: rgba(255,255,255,0.1);
+  background-color: #080808;
+  font-family: 'Montserrat';
+  white-space: nowrap;
+}
+
+.card-text {
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
