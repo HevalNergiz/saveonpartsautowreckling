@@ -1,6 +1,5 @@
-@media (min-width: 768px) {
-  header, .notheader {
-    height: 100vh;
+@media (min-width: 992px) {
+  .notheader {
     padding: 1.5rem;
   }
 }
@@ -299,33 +298,76 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   .notheader {
     padding-top: 5rem!important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
 @media (max-width: 992px) {
   .header-nav-video-div header {
-    position: fixed;
-    width: 100%;
-    left: 0;
+    position: absolute;
+    width: calc(100% - .5rem);
+    left: .5rem;
     top: 0;
   }
 }
 
 @media (min-width: 992px) {
   .header-nav-video-div header {
-    padding: 0;
+    padding: 0!important;
     margin-bottom: 0rem!important;
+    width: 100%;
   }
 }
 
-.header-nav-video-div header .container {
-  width: 100%;
-  padding: 0;
+@media (min-width: 7992px) {
+  .header-nav-video-div header .container {
+    width: 100%;
+    padding: 0;
+    max-width: 100%!important;
+    min-width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
   .header-nav-video-div header .navbar-brand {
     display: none;
   }
+}
+
+@media (max-width: 992px) {
+  .header-nav-video-div header .container {
+    width: 100%!important;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .notheader {
+    min-height: 100vh;
+  }
+}
+
+header .nav-link {
+  white-space: nowrap;
+}
+
+header {
+  padding: .5rem 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse.show {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+header {
+  background-color: rgba(244,241,237,0.88);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  --webkit-backdrop-filter: blur(3px);
 }
 
