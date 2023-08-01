@@ -314,8 +314,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
   .header-nav-video-div header {
-    padding: 0!important;
-    margin-bottom: 0rem!important;
+    padding: 0;
+    margin-bottom: 0;
     width: 100%;
   }
 }
@@ -354,6 +354,7 @@ header .nav-link {
 
 header {
   padding: .5rem 0;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
