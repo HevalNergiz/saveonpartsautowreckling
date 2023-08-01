@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  header {
+  header, .notheader {
     height: 100vh;
     padding: 1.5rem;
   }
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  header {
+  header, .notheader {
     padding: .5rem;
   }
 }
@@ -294,5 +294,38 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #dddddd;
   padding-top: .5rem;
   padding-bottom: .5rem;
+}
+
+@media (max-width: 992px) {
+  .notheader {
+    padding-top: 5rem!important;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-nav-video-div header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-nav-video-div header {
+    padding: 0;
+    margin-bottom: 0rem!important;
+  }
+}
+
+.header-nav-video-div header .container {
+  width: 100%;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .header-nav-video-div header .navbar-brand {
+    display: none;
+  }
 }
 
