@@ -13,3 +13,9 @@
   color: #808080!important;
 }
 
+@media (min-width: 992px) {
+  .header-row {
+    min-height: calc(100vh - 3rem);
+  }
+}
+
